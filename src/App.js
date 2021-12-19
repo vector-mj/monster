@@ -31,6 +31,7 @@ class App extends React.Component{
       hero.name.toLowerCase().includes(searchField.toLocaleLowerCase()))
     return (
       <div className="App">
+        <h1>Monster robolex</h1>
         <SearchBox OnChangeEvent={this.handleChange} placeholder="Search monster"/>
         <Cardlist Heros={filterHeros}/>
       </div>
